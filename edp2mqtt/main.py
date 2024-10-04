@@ -76,7 +76,7 @@ if __name__ == "__main__":
     argp.add_argument(
         "-p",
         "--listen-port",
-        default="50000",
+        default=50000,
         help="Incoming port and protocol to listen for EDP packages on",
     )
     argp.add_argument(
